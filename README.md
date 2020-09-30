@@ -1,8 +1,8 @@
 # Mastering Data Structures & Algorithms C/C++
 
-Contents
+## Contents
 
-1. Recursion
+### 1. Recursion
 - Tail
 - Head
 - Tree
@@ -10,12 +10,12 @@ Contents
 - Nested
 - Challenges: Factorial, Sum, Power, Fibonacci, Combination, Taylor Series, Tower Of Hanoi
 
-2. Arrays Representation
+### 2. Arrays Representation
 - Static Representation
 - Dynamic Representation Using Heap
 - 2D Array
 
-3. Array ADT
+### 3. Array ADT
 - Array Stack
 - Append
 - Insert
@@ -29,24 +29,24 @@ Contents
 - Merge Arrays
 - Challenges: Finding Single & Multiple Missing Elements, Sorted & Unsorted Duplicates, Pair Sums Upto K
 
-4. Linked List
+### 4. Linked List
 - Singly Linked List
 - Doubly Linked List
 - Circular Linked List
 - Operations: Insert, Delete, Sort, Create, Sum, Polynomial, Sparse Matrix, Middle Element
 
-5. Stack
+### 5. Stack
 
-6. Queues
+### 6. Queues
 
-7. Trees
+### 7. Trees
 
-8. Binary Search Tree
+### 8. Binary Search Tree
 
-9. AVL Trees
+### 9. AVL Trees
 
-10. Graphs
+### 10. Graphs
 
-11. Hashing Technique
+### 11. Hashing Technique
 
 [Udemy Course Codes](https://www.udemy.com/course/datastructurescncpp/)

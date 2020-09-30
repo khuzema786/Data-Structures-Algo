@@ -90,15 +90,15 @@ int Delete(Node **ptrBins, int idx)
     return x;
 }
 
-int getBinIndex(int x, int idx)
+int getBinIndex(int x, int idx) // Returns elements strating from last depending on pass
 {
-    return (int)(x / pow(10, idx)) % 10;
+    return (int)(x / pow(10, idx)) % 10; // eg: 256%10 = 6, (256/10)%10 = 5, (256/100)%10 = 2
 }
 
 void RadixSort(int A[], int n)
 {
     int max = Max(A, n);
-    int nPass = countDigits(max);
+    int nPass = countDigits(max); // Counts no. of digits in max element, since no. of passes depend on it
 
     // Create bins array
     Node **bins = new Node *[10];
@@ -113,11 +113,11 @@ void RadixSort(int A[], int n)
         // Update bins based on A values
         for (int i = 0; i < n; i++)
         {
-            int binIdx = getBinIndex(A[i], pass);
+            int binIdx = getBinIndex(A[i], pass); // Returns elements strating from last depending on pass
             Insert(bins, A[i], binIdx);
         }
 
-        // Update A with sorted elements from bin
+        // Update A with sorted elements from bin at each pass
         int i = 0;
         int j = 0;
         while (i < 10)
